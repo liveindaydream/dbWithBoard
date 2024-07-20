@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 브라우저 줄여도 크기변화 안생기게 */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.studentButton {
+    background-color: #2863a7;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.studentButton:hover {
+    background-color: #fffbf0;
+}
